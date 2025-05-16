@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Sarasa Fixed K:pixelsize=14:style=bold:antialias=true:autohint=true";
+static char *font = "Sarasa Fixed K:pixelsize=16:style=bold:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -193,6 +193,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ XK_NO_MOD,            XK_F11,         fullscreen,     {.i =  0} },
+	{ MODKEY,               XK_Return,      fullscreen,     {.i =  0} },
 };
 
 /*
