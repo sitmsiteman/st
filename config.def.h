@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Sarasa Fixed K:pixelsize=16:style=bold:antialias=true:autohint=true";
+static char *font = "DejaVu Sans Mono:size=12";
+static char *font2[] = {"Noto Sans CJK KR Mono:size=12",};
 static int borderpx = 2;
 
 /*
