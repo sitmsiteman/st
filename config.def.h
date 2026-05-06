@@ -7,6 +7,7 @@
  */
 static char *font = "DejaVu Sans Mono:size=12:antialias=true:autohint=true";
 static char *font2[] = {
+	"DotGothic16:size=10:antialias=false", "Unifont:size=12:antialias=false",
 	"Noto Sans Mono CJK KR:size=12:antialias=true:autohint=true",
 	"Noto Color Emoji:size=12:style=Regular",
 };
