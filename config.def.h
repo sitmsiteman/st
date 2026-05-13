@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVu Sans Mono:size=12:antialias=true:autohint=true";
+static char *font = "Sarasa Mono K:size=12:antialias=true:autohint=false";
 static char *font2[] = {
-	"DotGothic16:size=10:antialias=false", "Unifont:size=12:antialias=false",
+	"DejaVu Sans Mono:size=12:antialias=true:autohint=true",
 	"Noto Sans Mono CJK KR:size=12:antialias=true:autohint=true",
 	"Noto Color Emoji:size=12:style=Regular",
 };
